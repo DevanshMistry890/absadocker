@@ -1,0 +1,11 @@
+version: '1.0'
+
+services:
+  absav1:
+    container_name: absav1
+    image: devansh890/absav1
+    ports:
+      - "7860:7860"
+    build:
+      context: .
+      dockerfile: Dockerfile
